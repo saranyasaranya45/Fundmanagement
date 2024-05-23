@@ -1,0 +1,77 @@
+body {
+    background-image: url('D:\saranya\frontend\src\Components\Image.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    border-style: solid;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgba(28, 161, 144, 0.7); /* Added opacity to background color */
+    background-image: url('D:\saranya\frontend\src\Components\cardImage.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form label {
+    margin-bottom: 20px;
+    color: rgb(22, 20, 20);
+}
+
+form input {
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(83, 49, 136);
+}
+
+form button {
+    text-align: center;
+    margin-left: 140px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(14, 14, 17);
+    background-color: rgb(218, 124, 160);
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+}
+.res 
+{
+    padding:10px;
+    width:280px;
+    height:250px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(204, 151, 151);
+    margin-left:50px;
+    margin-top: 40px;;
+}
+.res button{
+    margin-left:40px;
+    margin-right:20px;
+    margin-top:20px;
+    height:25px;
+    text-align: center;
+    border-radius: 5px;
+    background: transparent;
+    border-style: solid;
+    border-color: blue;
+    color:rgb(255, 0, 212);
+}
+.res span{
+    color:black;
+    font-size: 20px;
+    color:rgb(255, 0, 0);
+}
